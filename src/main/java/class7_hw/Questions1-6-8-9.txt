@@ -1,0 +1,40 @@
+Q1: Are Design patterns language dependent?
+A1: No. They're an abstraction that can be applied to object-oriented languages in general.
+
+Q6: What is Maven repository and what is it used for
+A6: Apache Maven is a software project management and comprehension tool. Based on the concept of
+    a project object model (POM), Maven can manage a project's build, reporting and documentation
+    from a central piece of information.
+    Apache maven provides repository as a standard for storing and serving binary software libraries.
+    There are thousands of libraries which are open source in the Maven Repository.
+
+Q8: Name 3 more Java design patterns and write in a few words
+    what they are used for.
+A8: ADAPTER PATTERN:
+    The adapter pattern is a software design pattern (also known as wrapper,
+    an alternative naming shared with the decorator pattern) that allows the interface of an existing
+    class to be used as another interface. It is often used to make existing classes work with
+    others without modifying their source code. (https://en.wikipedia.org/wiki/Adapter_pattern)
+    DECORATOR PATTERN:
+    This is a design pattern that allows behavior to be added to an individual object, dynamically,
+    without affecting the behavior of other objects from the same class. The decorator pattern
+    is often useful for adhering to the Single Responsibility Principle, as it allows functionality
+    to be divided between classes with unique areas of concern.[2] Decorator use can be more efficient
+    than subclassing, because an object's behavior can be augmented without defining
+    an entirely new object. (https://en.wikipedia.org/wiki/Decorator_pattern)
+    OBSERVER PATTERN:
+    The observer pattern is a software design pattern in which an object, named the subject, maintains
+    a list of its dependents, called observers, and notifies them automatically of any state changes,
+    usually by calling one of their methods. (https://en.wikipedia.org/wiki/Observer_pattern)
+
+Q9: Name 2 more project management tools which can be used
+    in Java.
+A9: GRADLE:
+    is a modern automation tool used in software development for project build automation.
+    Gradle has its own domain-specific language (DSL) based on a Groovy (build.gradle)
+    or Kotlin (build.gradle.kts) code.
+    ANT:
+    Apache Ant is the predecessor of Apache Maven. First released in 2000, Ant was developed
+    as a replacement for a build tool Make, which was used widely in software development in
+    the past. Using an XML file, Ant is used to automatize build tasks.
+    (https://jrebel.com/blog/java-build-tools-comparison)
