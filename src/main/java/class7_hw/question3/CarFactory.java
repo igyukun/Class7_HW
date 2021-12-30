@@ -1,5 +1,8 @@
 package class7_hw.question3;
-
+/*
+Class CarFactory implements the Factory design pattern to create and return
+an instance of a specific class, implementing the Drivable interface.
+ */
 import class7_hw.question3.cars.BMW;
 import class7_hw.question3.cars.Drivable;
 import class7_hw.question3.cars.Fiat;
@@ -16,8 +19,8 @@ public class CarFactory {
             case "porsche":
                 return new Porsche();
             default:
-                throw new IncorrectCarException();
-
+                //if a provided car name is not listed, throw a relevant exception
+                throw new IncorrectCarException(car);
         }
     }
 }
